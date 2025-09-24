@@ -23,7 +23,7 @@ void setup() {
   digitalWrite(PIN_TRIG, LOW);  // turn-off Sonar 
   
   // initialize serial port
-  Serial.begin(57600);
+  Serial.begin(115200);
 }
 
 void loop() { 
